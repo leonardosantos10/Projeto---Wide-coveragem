@@ -87,7 +87,7 @@ p {
       
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 680px) and (orientation:portrait){
    
    img {
           display: block;
@@ -108,28 +108,31 @@ p {
    div {
            display: block;
            text-align: center;
-           margin: -300px 4px 0 7px;
+           margin: -330px 4px 0 7px;
    }
 
    p {
       font-size: 18px;
-      line-height: 33px;
+      line-height: 26px;
       text-align: center;
-      width: 489px;
-      margin-top: 29px;
-      margin-bottom: 22px;
+      width: 370px;
+      margin: 0 auto;
+      margin-bottom: 17px;
    }
 
    h1 {
           display: block;
           margin-top: 80px ;
           text-align: center;
+          margin-bottom: 26px;
+          font-size: 40px;
+          line-height: 60px;
    }
 
 
 }
 
-@media screen and (max-width: 330px){
+@media screen and (max-width: 330px) and (orientation:portrait){
          
      main {
              height: 100%;
@@ -137,7 +140,7 @@ p {
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) and (orientation:portrait){
    
    main {
            height: 50%;
